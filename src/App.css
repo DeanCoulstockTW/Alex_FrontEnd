@@ -1,26 +1,6 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -28,11 +8,90 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table {
+  display: flex;
+  justify-content: center;
+}
+td {
+  border: 1px solid gray;
+  width: 30em;
+  padding: 0;
+  display: inline-flex;
+  padding: 10px;
+}
+tr {
+  display: grid;
+}
+.outerContainer {
+  display: table-caption;
+}
+
+tbody {
+  margin: 20px;
+}
+
+.responseCode {
+  font-size: xx-large;
+}
+
+.container {
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+button {
+  width: 200px;
+  height: 50px;
+  margin-left: 45vw;
+  margin-top: 50px;
+}
+
+.transaction-container {
+  display: flex;
+  justify-content: center;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+textarea {
+  width: 20em;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.submitButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  margin-bottom: 20px;
+}
+.submitButton {
+  width: 200px;
+  height: 50px;
+  display: none; /* Come back to this when you've had some actual sleep Dean */
+}
+
+button {
+  margin-bottom: 25px;
+}
+
+.postResponse {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }

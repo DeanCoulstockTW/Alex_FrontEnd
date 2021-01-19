@@ -1,5 +1,5 @@
 import React from "react";
-import { Transactions } from "./calls/get";
+import { Transactions } from "./calls/getTransaction";
 import { NewTransactionPostRequest } from "./components/NewTransaction";
 
 export class Home extends React.Component {

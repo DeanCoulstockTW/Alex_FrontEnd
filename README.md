@@ -12,6 +12,11 @@ $ npm install
 $ npm run
 ```
 
+## Testing
+```
+$ npm test
+```
+
 ## Tech used
 #### React.js
 
